@@ -7,10 +7,10 @@ The following are the files used in the model;
 #### drunk.plan.txt, the file that contains variables used in model 
 #### independent(model), the main model 
 #### License (MIT)
-To have access to the files in the repository,simply click https://github.com/gy19ynk/INDEPENDENT
+To have access to the files in the repository, check https://github.com/gy19ynk/INDEPENDENT
 
 ## LICENSE
-The project is licensed under MIT, For more information on the license click on  https://github.com/gy19ynk/INDEPENDENT/blob/master/LICENSE.
+The project is licensed under MIT, For more information on the license check https://github.com/gy19ynk/INDEPENDENT/blob/master/LICENSE.
 
 ## SOFTWARE
 Spyder 3.7 was used to run the model and build the agentframework.
