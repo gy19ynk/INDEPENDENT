@@ -10,7 +10,7 @@ The following are the files used in the model;
 To have access to the files in the repository,simply click https://github.com/gy19ynk/INDEPENDENT
 
 ## LICENSE
-The project is licensed under MIT, For more information on the license click on https://github.com/gy19ynk/INDEPENDENT/blob/master/LICENSE.
+The project is licensed under MIT, For more information on the license click on  https://github.com/gy19ynk/INDEPENDENT/blob/master/LICENSE.
 
 ## SOFTWARE
 Spyder 3.7 was used to run the model and build the agentframework.
