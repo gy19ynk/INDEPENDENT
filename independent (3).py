@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot
 import agentframework
 import matplotlib.animation
-#import tkinter
+
 
 
 num_of_drunks = 25
@@ -17,10 +17,10 @@ drunks =[]
 house=[]
 start_coor=[]
 
-#Reads the file 'drunk.plan.txt'
+#Reads the file "drunk.plan.txt"
 Field = np.genfromtxt("drunk.plan.txt", delimiter= ',')
 
-#displays the pubs and homes on screen
+
 f = open('drunk.plan.txt')
 environment = []
 for row in f:
@@ -45,25 +45,11 @@ for i in range (num_of_drunks):
     house.append(houselabel)
 
 
-
-
 for i in range(num_of_drunks):
     while environment[drunks[i].x][drunks[i].y] != house[i]:
         drunks[i].move()
     print(drunks[i].x, drunks[i].y)    
     
-
-
-#def update(frame_number):
-    
-    #fig.clear()
-    
-    
-    
-    #for j in range(num_of_steps):
-        #for i in range(num_of_drunks):
-            #drunks[i].move()
-           # drunks[i].add()
     
 matplotlib.pyplot.xlim(0,300)  #plots x values
 matplotlib.pyplot.ylim(0,300) #plots y values
