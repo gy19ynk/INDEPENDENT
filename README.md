@@ -10,6 +10,8 @@ The following are the files used in the model;
 To have access to the files in the repository,simply click https://github.com/gy19ynk/INDEPENDENT
 
 ## SOFTWARE
-The project is licensed under MIT, For more information on the license click on
+The project is licensed under MIT, For more information on the license click on https://github.com/gy19ynk/INDEPENDENT/blob/master/LICENSE.
+
+
 
  
