@@ -3,10 +3,12 @@ A model that imitates how drunks stagger around at night from a pub to their res
 
 ## DIRECTORY OR FILES
 The following are the files used in the model;  
-#### Agentframework, 
-#### drunk.plan.txt 
-#### independent(model)
-#### License
-
+#### Agentframework, the class that deals with the drunks,their home and location
+#### drunk.plan.txt, the file that contains variables used in model 
+#### independent(model), the main model 
+#### License (MIT)
 To have access to the files in the repository,simply click https://github.com/gy19ynk/INDEPENDENT
+
+## SOFTWARE
+
  
