@@ -13,7 +13,7 @@ To have access to the files in the repository,simply click https://github.com/gy
 The project is licensed under MIT, For more information on the license click on https://github.com/gy19ynk/INDEPENDENT/blob/master/LICENSE.
 
 ## SOFTWARE
-Spyder 
+Spyder 3.7 was used to run the model and build the agentframework.
 
 
 
