@@ -11,7 +11,6 @@ at a specific location.
 """
 
 #import operator exports a set of functions used in the model
-import numpy as np
 import matplotlib.pyplot
 import agentframework
 import matplotlib.animation
@@ -24,7 +23,14 @@ house=[]
 start_coor=[]
 
 #2nd STEP: Reads the file "drunk.plan.txt"
-Field = np.genfromtxt("drunk.plan.txt", delimiter= ',')
+f = open('drunk.plan.txt')
+environment = []
+for row in f:
+    parsed_row = str.split(row, ",")
+    rowlist=[]
+    for value in parsed_row:
+            rowlist.append(float(value))
+    environment.append(rowlist)
 
     
 #3rd STEP: Closes the file "drunk.plan.txt" so it is no longer read or written     
