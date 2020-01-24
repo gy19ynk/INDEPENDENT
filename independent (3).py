@@ -17,41 +17,41 @@ import agentframework
 import matplotlib.animation
 
 
-#initiates variables used in the model
+# 1st STEP: initiates variables used in the model
 num_of_drunks = 25
 drunks =[]
 house=[]
 start_coor=[]
 
-#Reads the file "drunk.plan.txt"
+#2nd STEP: Reads the file "drunk.plan.txt"
 Field = np.genfromtxt("drunk.plan.txt", delimiter= ',')
 
     
-#Closes the file "drunk.plan.txt" so it is no longer read or written     
+#3rd STEP: Closes the file "drunk.plan.txt" so it is no longer read or written     
 f.close()
 for a in range (300):
     for b in range (300):
         if environment[a][b] == 1:
             environment[a][b]= 100
 
-#Initiates the class 'drunks'
+#4th STEP: Initiates the class 'drunks'
 for i in range (num_of_drunks):
     drunks.append(agentframework.drunks(environment))
     
 
-#adds a label to the 25 houses that belong to the drunks       
+#5th STEP: adds a label to the 25 houses that belong to the drunks       
 for i in range (num_of_drunks):    
     houselabel = (i+1)*10
     house.append(houselabel)
 
 
-#locates the drunks houses and moves the drunks to find their homes
+#6th STEP: locates the drunks houses and moves the drunks to find their homes
 for i in range(num_of_drunks):
     while environment[drunks[i].x][drunks[i].y] != house[i]:
         drunks[i].move()
     print(drunks[i].x, drunks[i].y)    
     
- #plots the environment   
+ #7th STEP: plots the environment   
 matplotlib.pyplot.xlim(0,300)  #plots x values
 matplotlib.pyplot.ylim(0,300) #plots y values
 for i in drunks:    
