@@ -57,6 +57,8 @@ for i in drunks:
     matplotlib.pyplot.scatter(i.y,i.x)
 matplotlib.pyplot.imshow(environment) #plots environment
 matplotlib.pyplot.show()
+
+
 """
 The model was required to produce a density map of the environment but it didn't get that far, some additions to the model are necessary.
 the drunkards all managed to get home except one who was left at the pub which is something to be looked into.
