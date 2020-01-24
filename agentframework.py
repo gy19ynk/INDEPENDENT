@@ -2,8 +2,9 @@
 """
 Created on Fri Nov  1 16:24:56 2019
 
-@author: 44781
+@author: Yankho Naomi Kalebe
 
+Before the model is run, the environment,and drunks are initialised and enabled to move by the following code
 """
 
 #builds drunks class, initialises them in a random location,and moves them
