@@ -3,6 +3,11 @@
 Created on Sun Jan 19 16:16:11 2020
 
 @author: gy19ynk
+
+The model is run using drunks and the environment called and initialised in the agentframework. Matplotlib is used to plot the scatter 
+plot of the drunks which are assembled in one place pub as a starting point. The coordinate values of the houses are also plotted using
+matplotlib on the screen drawn of the environment. The drunks are enabled to move and the result is shown on the screen with each drunk
+at a specific location.
 """
 
 #import operator exports a set of functions used in the model
